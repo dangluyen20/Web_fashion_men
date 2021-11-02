@@ -26,7 +26,7 @@ session_start();
     <div class="container mt-5 ">
       <div class="row justify-content-around">
         <div class="col-md-5 mt-3">
-          <h3 class="text-warning pt-3 title">Who We Are ?</h3>
+          <h3 class="text-warning pt-3 title">Who I am ?</h3>
           <hr />
           <img
             src="https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&h=400&q=80"
