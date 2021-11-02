@@ -4,7 +4,7 @@ session_start();
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta cha$et="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Planet Shopify</title>
@@ -44,13 +44,13 @@ include 'includes/check-if-added.php';
                 <img src="images/watch1.jpg" alt="" class="img-fluid pb-1" >
                 <div class="figure-caption">
                     <h6>Guess 1875</h6>
-                    <h6>Giá :Rs 3000</h6>
+                    <h6>Giá :$ 3000</h6>
                     <?php if (!isset($_SESSION['email'])) {?>
                     <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Thêm vào giỏ hàng</a></p>
                     <?php
                     } else {
                     if (check_if_added_to_cart(1)) {
-                     echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
+                     echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Đã thêm vào giỏ hàng</a></p>';
                     } else {
                         ?>
                         <p><a href="cart-add.php?id=1" name="add" value="add" class="btn btn-warning  text-white">Thêm vào giỏ hàng</a><p>
@@ -66,13 +66,13 @@ include 'includes/check-if-added.php';
                 <img src="images/watch2.jpg" alt="" class="img-fluid pb-1">
                 <div class="figure-caption">
                     <h6>Guest Watch</h6>
-                    <h6>Giá :Rs 2500</h6>
+                    <h6>Giá :$ 2500</h6>
                     <?php if (!isset($_SESSION['email'])) {?>
                     <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Thêm vào giỏ hàng</a></p>
                     <?php
                     } else {
                         if (check_if_added_to_cart(2)) {
-                        echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
+                        echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Đã thêm vào giỏ hàng</a></p>';
                          } else {
                         ?>
                         <p><a href="cart-add.php?id=2" name="add" value="add" class="btn btn-warning  text-white">Thêm vào giỏ hàng</a></p>
@@ -88,13 +88,13 @@ include 'includes/check-if-added.php';
                 <img src="images/watch3.jpg" alt="" class="img-fluid pb-1">
                 <div class="figure-caption">
                     <h6>Panerai Watch</h6>
-                    <h6>Giá :Rs 3500</h6>
+                    <h6>Giá :$ 3500</h6>
                     <?php if (!isset($_SESSION['email'])) {?>
                     <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Thêm vào giỏ hàng</a></p>
                     <?php
                     } else {
                         if (check_if_added_to_cart(3)) {
-                        echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
+                        echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Đã thêm vào giỏ hàng</a></p>';
                         } else {
                         ?>
                         <p><a href="cart-add.php?id=3" name="add" value="add" class="btn btn-warning  text-white">Thêm vào giỏ hàng</a></p>
@@ -110,13 +110,13 @@ include 'includes/check-if-added.php';
                 <img src="images/watch4.jpg" alt="" class="img-fluid pb-1">
                 <div class="figure-caption">
                     <h6>Nonos Watch</h6>
-                    <h6>Giá :Rs 1800</h6>
+                    <h6>Giá :$ 1800</h6>
                     <?php if (!isset($_SESSION['email'])) {?>
                     <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Thêm vào giỏ hàng</a></p>
                     <?php
                     } else {
                         if (check_if_added_to_cart(4)) {
-                        echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
+                        echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Đã thêm vào giỏ hàng</a></p>';
                         } else {
                         ?>
                         </p><a href="cart-add.php?id=4" name="add" value="add" class="btn btn-warning  text-white">Thêm vào giỏ hàng</a></p>
@@ -134,13 +134,13 @@ include 'includes/check-if-added.php';
                     <img src="images/shirt1.jpg" alt="" class="img-fluid pb-1"  >
                     <div class="figure-caption">
                     <h6>Levis</h6>
-                    <h6>Giá :Rs 1800</h6>
+                    <h6>Giá :$ 1800</h6>
                     <?php if (!isset($_SESSION['email'])) {?>
                     <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Thêm vào giỏ hàng</a></p>
                     <?php
                     } else {
                         if (check_if_added_to_cart(5)) {
-                        echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
+                        echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Đã thêm vào giỏ hàng</a></p>';
                         } else {
                         ?>
                         <p><a href="cart-add.php?id=5" name="add" value="add" class="btn btn-warning  text-white">Thêm vào giỏ hàng</a></p>
@@ -156,13 +156,13 @@ include 'includes/check-if-added.php';
                     <img src="images/shirt2.jpg" alt="" class="img-fluid pb-1" >
                     <div class="figure-caption">
                     <h6>Louis Philippe t-shirt</h6>
-                    <h6>Giá :Rs 2500</h6>
+                    <h6>Giá :$ 2500</h6>
                     <?php if (!isset($_SESSION['email'])) {?>
                     <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Thêm vào giỏ hàng</a></p>
                     <?php
                     } else {
                         if (check_if_added_to_cart(6)) {
-                        echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
+                        echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Đã thêm vào giỏ hàng</a></p>';
                         } else {
                         ?>
                         <p><a href="cart-add.php?id=6" name="add" value="add" class="btn btn-warning  text-white">Thêm vào giỏ hàng</a></p>
@@ -178,13 +178,13 @@ include 'includes/check-if-added.php';
                     <img src="images/shirt3.jpg" alt="" class="img-fluid pb-1">
                     <div class="figure-caption">
                         <h6>Highlander t-shirt</h6>
-                        <h6>Giá :Rs 500</h6>
+                        <h6>Giá :$ 500</h6>
                         <?php if (!isset($_SESSION['email'])) {?>
                     <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Thêm vào giỏ hàng</a></p>
                     <?php
                     } else {
                     if (check_if_added_to_cart(7)) {
-                    echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
+                    echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Đã thêm vào giỏ hàng</a></p>';
                     } else {
                     ?>
                     <p><a href="cart-add.php?id=7" name="add" value="add" class="btn btn-warning  text-white">Thêm vào giỏ hàng</a></p>
@@ -200,13 +200,13 @@ include 'includes/check-if-added.php';
                     <img src="images/shirt4.jpg" alt="" class="img-fluid pb-1">
                     <div class="figure-caption">
                         <h6>GUCCI White t-Shirt</h6>
-                        <h6>Giá :Rs 2300</h6>
+                        <h6>Giá :$ 2300</h6>
                         <?php if (!isset($_SESSION['email'])) {?>
                     <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Thêm vào giỏ hàng</a></p>
                     <?php
                     } else {
                         if (check_if_added_to_cart(8)) {
-                        echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
+                        echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Đã thêm vào giỏ hàng</a></p>';
                         } else {
                         ?>
                         <p><a href="cart-add.php?id=8" name="add" value="add" class="btn btn-warning  text-white">Thêm vào giỏ hàng</a></p>
@@ -224,13 +224,13 @@ include 'includes/check-if-added.php';
                         <img src="images/shoe1.jpg" alt="" class="img-fluid pb-1">
                         <div class="figure-caption">
                             <h6>Nike White Sneaker</h6>
-                            <h6>Giá :Rs 8000</h6>
+                            <h6>Giá :$ 8000</h6>
                             <?php if (!isset($_SESSION['email'])) {?>
                     <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Thêm vào giỏ hàng</a></p>
                     <?php
                     } else {
                     if (check_if_added_to_cart(9)) {
-                    echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
+                    echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Đã thêm vào giỏ hàng</a></p>';
                     } else {
                     ?>
                     <p><a href="cart-add.php?id=9" name="add" value="add" class="btn btn-warning  text-white">Thêm vào giỏ hàng</a></p>
@@ -246,13 +246,13 @@ include 'includes/check-if-added.php';
                         <img src="images/shoe2.jpg" alt="" class="img-fluid pb-1">
                         <div class="figure-caption">
                             <h6>Nike White Shoes</h6>
-                            <h6>Giá :Rs 7500</h6>
+                            <h6>Giá :$ 7500</h6>
                             <?php if (!isset($_SESSION['email'])) {?>
                     <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Thêm vào giỏ hàng</a></p>
                     <?php
                     } else {
                     if (check_if_added_to_cart(10)) {
-                    echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
+                    echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Đã thêm vào giỏ hàng</a></p>';
                     } else {
                     ?>
                      <p><a href="cart-add.php?id=10" name="add" value="add" class="btn btn-warning  text-white">Thêm vào giỏ hàng</a></p>
@@ -268,13 +268,13 @@ include 'includes/check-if-added.php';
                         <img src="images/shoe3.jpg" alt="" class="img-fluid pb-1">
                         <div class="figure-caption">
                             <h6>Nike Yellow Sneaker</h6>
-                            <h6>Giá :Rs 7000</h6>
+                            <h6>Giá :$ 7000</h6>
                             <?php if (!isset($_SESSION['email'])) {?>
                     <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Thêm vào giỏ hàng</a></p>
                     <?php
                     } else {
                     if (check_if_added_to_cart(11)) {
-                    echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
+                    echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Đã thêm vào giỏ hàng</a></p>';
                     } else {
                     ?>
                     <p><a href="cart-add.php?id=11" name="add" value="add" class="btn btn-warning  text-white">Thêm vào giỏ hàng</a></p>
@@ -290,13 +290,13 @@ include 'includes/check-if-added.php';
                         <img src="images/shoe4.jpg" alt="" class="img-fluid pb-1">
                         <div class="figure-caption">
                         <h6>Nike Sneaker</h6>
-                    <h6>Giá :Rs 6000</h6>
+                    <h6>Giá :$ 6000</h6>
                     <?php if (!isset($_SESSION['email'])) {?>
                     <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Thêm vào giỏ hàng</a></p>
                     <?php
                     } else {
                     if (check_if_added_to_cart(12)) {
-                    echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
+                    echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Đã thêm vào giỏ hàng</a></p>';
                     } else {
                     ?>
                     </p><a href="cart-add.php?id=12" name="add" value="add" class="btn btn-warning  text-white">Thêm vào giỏ hàng</a></p>
@@ -314,13 +314,13 @@ include 'includes/check-if-added.php';
                             <img src="images/sp1.jpg" alt="" class="img-fluid pb-1">
                             <div class="figure-caption">
                                 <h6>Beats Headphone</h6>
-                                <h6>Giá :Rs 22,500</h6>
+                                <h6>Giá :$ 22,500</h6>
                                 <?php if (!isset($_SESSION['email'])) {?>
                     <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Thêm vào giỏ hàng</a></p>
                     <?php
                     } else {
                     if (check_if_added_to_cart(13)) {
-                    echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
+                    echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Đã thêm vào giỏ hàng</a></p>';
                     } else {
                     ?>
                     <p> <a href="cart-add.php?id=13" name="add" value="add" class="btn btn-warning  text-white">Thêm vào giỏ hàng</a></p>
@@ -336,13 +336,13 @@ include 'includes/check-if-added.php';
                             <img src="images/sp2.jpg" alt="" class="img-fluid pb-1">
                             <div class="figure-caption">
                                 <h6>Zolo Headphone</h6>
-                                <h6>Giá :Rs 4500</h6>
+                                <h6>Giá :$ 4500</h6>
                                 <?php if (!isset($_SESSION['email'])) {?>
                     <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Thêm vào giỏ hàng</a></p>
                     <?php
                     } else {
                     if (check_if_added_to_cart(14)) {
-                    echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
+                    echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Đã thêm vào giỏ hàng</a></p>';
                     } else {
                     ?>
                     </p><a href="cart-add.php?id=14" name="add" value="add" class="btn btn-warning  text-white">Thêm vào giỏ hàng</a></p>
@@ -358,13 +358,13 @@ include 'includes/check-if-added.php';
                             <img src="images/sp3.jpg" alt="" class="img-fluid pb-1">
                             <div class="figure-caption">
                                 <h6>Sony Speaker</h6>
-                                <h6>Giá :Rs 10,500</h6>
+                                <h6>Giá :$ 10,500</h6>
                                 <?php if (!isset($_SESSION['email'])) {?>
                     <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Thêm vào giỏ hàng</a></p>
                     <?php
                     } else {
                     if (check_if_added_to_cart(15)) {
-                    echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
+                    echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Đã thêm vào giỏ hàng</a></p>';
                     } else {
                     ?>
                     </p><a href="cart-add.php?id=15" name="add" value="add" class="btn btn-warning  text-white">Thêm vào giỏ hàng</a></p>
@@ -380,13 +380,13 @@ include 'includes/check-if-added.php';
                             <img src="images/sp4.jpg" alt="" class="img-fluid pb-1">
                             <div class="figure-caption">
                                 <h6>Airpods</h6>
-                                <h6>Giá :Rs 15,000</h6>
+                                <h6>Giá :$ 15,000</h6>
                                 <?php if (!isset($_SESSION['email'])) {?>
                     <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Thêm vào giỏ hàng</a></p>
                     <?php
                     } else {
                     if (check_if_added_to_cart(16)) {
-                    echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
+                    echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Đã thêm vào giỏ hàng</a></p>';
                     } else {
                     ?>
                     <p> <a href="cart-add.php?id=16" name="add" value="add" class="btn btn-warning  text-white">Thêm vào giỏ hàng</a></p>

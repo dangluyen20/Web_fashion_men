@@ -3,7 +3,7 @@ require "includes/common.php";
 session_start();
 
 $user_id = $_SESSION['user_id'];
-$query = "UPDATE users_products SET status='Confirmed' WHERE user_id='$user_id' AND status='Added to cart'";
+$query = "UPDATE users_products SET status='Confirmed' WHERE user_id='$user_id' AND status='Đã thêm vào giỏ hàng'";
 mysqli_query($con, $query);
 ?>
 <!DOCTYPE html>

@@ -35,21 +35,25 @@ session_start();
         </div>
         <div class="col-md-5 mt-3">
           <span class="text-warning pt-3">
-            <h1 class="title">LIVE SUPPORT</h1>
-            <h3></h3>
+            <h1 class="title">THÔNG TIN CÁ NHÂN</h1>
           </span>
           <hr>
-          <p>
+          <p>Đặng Ngọc Luyến
           </p>
-
+          <p>Sinh viên năm 4
+          </p>
+          <p>Đại học Nha trang
+          </p>
+          <p>Lập trình viên Back-end
+          </p>
+          <p>SĐT: 0977715564
+          </p>
+          <p>EMAIL: luyen.dn.60cntt@ntu.edu.vn
+          </p>
         </div>
       </div>
     </div>
   </div>
-  <div class="container pb-3">
-  </div>
-
-
   </div>
   <!--footer -->
   <?php include 'includes/footer.php'?>
