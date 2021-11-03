@@ -20,7 +20,17 @@
                            
                        </li>
                        <li class="nav-item"><a href="index.php" class="nav-link">Khuyến mãi</a></li>
-                       <li class="nav-item"><a href="about.php" class="nav-link">Thông tin</a></li>
+                       <li class="nav-item dropdown">
+                           <a href="" class="nav-link dropdown-toggle" id="navbar-drop" data-toggle="dropdown">
+                               Bài tập
+                            </a>
+                               <div class="dropdown-menu">
+                                   <a href="Form.php" class="dropdown-item">Form</a>
+                                   <a href="Array.php" class="dropdown-item">Mảng, chuỗi & hàm</a>
+                                   <a href="SQL.php" class="dropdown-item">PHP & MYSQL</a>
+                               </div>
+                           
+                       </li>
                        <?php
                        if (isset($_SESSION['email'])) {
                         ?>
