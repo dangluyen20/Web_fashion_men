@@ -29,7 +29,7 @@ session_start();
           <h3 class="text-warning pt-3 title">Who I am ?</h3>
           <hr />
           <img
-            src="https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&h=400&q=80"
+            src="images/about.jpg"
             class="img-fluid d-block rounded mx-auto image-thumbnail">
           <p class="mt-2"></p>
         </div>
